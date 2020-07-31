@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">	
+<head>
+ <meta charset="utf-8">>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">	
+  <title>SURVEY FORM</title>
+	<style>
+	body{background-image: url('https://tse1.mm.bing.net/th?id=OIP.9cnyRDTVlOR6ikp4A0p3nwHaEK&pid=Api&P=0&w=310&h=175');
+         background-repeat:no-repeat;
+         background-attachment: fixed;
+         background-size: cover;
+         text-align: center;
+         color: red;
+         }
+    form{color: black;
+         text-align: center;
+         padding: 30px;
+         
+         }
+    header{ background-color: black;
+            padding: 20px;
+            text-align: left;
+            font-size: 20px;
+            color: white;
+          }
+    .tab{ margin-right: 30px;
+    }
+    .brd{border-style: ridge;
+         width: 30rem;
+         margin-left: 500px;
+         background-color: rgba(22,22,22,0.5);}
+    </style>
+</head>
+<body>
+	<header>
+		<a class="tab" href="#home">Home</a>
+		<a class="tab" href="#about">About</a>
+		<a class="tab" href="#contact" style="margin-right: 1000px">Contact</a>
+	    <input type="search" name="search" placeholder="search" id="search" >
+		<button>search</button>
+	</header>
+	<br><br>
+	<div class="brd" style="border: 5px solid black" >
+	<H1>Registration Form</H1><br>
+	<form>
+		<label for="fname">First Name:</label>
+		<input type="text" name="fname" id="fname" placeholder="John" required ><br><br>
+		<label for="lname">Last Name:</label>
+		<input type="text" name="lname" id="lname" placeholder="Deo"><br><br>
+		<label for="birthday">Date of Birth:</label>
+		<input type="date" name="birthday" id="birthday" required><br><br>
+		<label for="email">Email Address:</label>
+        <input type="email" name="email" id="email" placeholder="johndeo123@gmail.com" required ><br><br>
+        <label for="contact">Mobile Number:</label>
+        <input type="contact" name="contact" id="contact" required><br><br>
+		<label for="gender">Gender:</label>
+		<input type="radio" name="gender" id="male">
+		<label for="male">Male</label>
+		<input type="radio" name="gender" id="female">
+		<label for="male">Female</label>
+		<input type="radio" name="gender" id="other">
+		<label for="male">Other</label><br><br>
+		<input type="checkbox" name="checkbox" id="checkbox" required>
+		<label for="checkbox">Agree to terms and conditions </label><br><br>
+		<input type="submit" name="Submit">
+		<input type="reset" name="Reset">
+	</form>
+    </div>
+</body>
+</html>
